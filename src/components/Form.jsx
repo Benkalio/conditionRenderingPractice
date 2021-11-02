@@ -5,7 +5,7 @@ function Form(props) {
     <form className="form">
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
-      RENDERING THE CONFIRM PASSWORD IF THE USER IS NOT REGISTERED
+      {/* RENDERING THE CONFIRM PASSWORD IF THE USER IS NOT REGISTERED */}
       {props.isRegistered === false && (
         <input type="password" placeholder="Confirm Password" />
       )}
